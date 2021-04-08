@@ -9,7 +9,7 @@
  }
 
  let r=findfactorial(10)
- console.log("the factorial value is:+r)
+ console.log("the factorial value is:+r);
 
  // ord = CreateOrder()
 
@@ -21,4 +21,4 @@
 
 // function EditOrder(orderId){
 
-// }
+// 

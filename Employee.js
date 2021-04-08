@@ -1,5 +1,5 @@
 class Employee{
-    #age=30; //private 
+    #age=30; //private values to protect the data Encapsulation
 
     getAge(){ // getter : used to return value of a private field
         return this.#age;
@@ -12,10 +12,12 @@ class Employee{
             console.log("Employee age must be less than or equal 65");            
         }else{
             this.#age=age;
-            console.log("Employee age updated to "+this.#age);            
+            console.log("Employee age updated to "+this.#age);  
+            
+            }          
         }
     }
-}
+{}
 
 let emp1 = new Employee()
 console.log(emp1.getAge())
