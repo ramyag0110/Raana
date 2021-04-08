@@ -51,9 +51,9 @@ for(let d = 0;d<den.length;d++){
 }
 
 
-// let numberof2k = parseInt (amount / den[0]);
-// console.log(numberof2k+"*"+den[0]);
-// amount = amount % den[0];
+let numberof2k = parseInt (amount / den[0]);
+ console.log(numberof2k+"*"+den[0]);
+ amount = amount % den[0];
 
 // let numberof5h = parseInt(amount/den[1])
 // console.log(numberof5h+"*"+den[1]);
