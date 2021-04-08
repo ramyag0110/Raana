@@ -1,7 +1,8 @@
-function CreateTool(name, version, languages) {
+function CreateTool(name, version, languages,regions) {
     this.name = name;
     this.version = version;
     this.languages = languages;
+    this.regions = regions
 
     this.start=function(){
         console.log(this.name+" is started");        
@@ -20,6 +21,7 @@ console.log(tool["version"]);
 console.log(tool.name);
 console.log(tool.version);
 console.log(tool.languages);
+console.log(tool.regions);
 
 tool.start()
 tool2.start()

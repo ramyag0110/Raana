@@ -1,9 +1,10 @@
 class Tool{
 
-    constructor(name,version,languages){
+    constructor(name,version,languages,regions){
         this.name = name;
-        this.version = version,
-        this.languages= languages
+        this.version = version;
+        this.languages= languages;
+        this.regions= regions;
 
     }
 
@@ -15,8 +16,12 @@ class Tool{
  stop(){
      console.log(this.name+" is stopped");
 
- }
-}
+     }
+                
+     }
+
+ 
+
 
 let t1= new Tool("selenium",4);
 console.log(t1.name);
